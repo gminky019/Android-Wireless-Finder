@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="BT_Android.BT_Android" android:versionCode="1" android:versionName="1.0">
+  <uses-feature android:name="android.hardware.bluetooth" android:required="true" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  
+	<uses-sdk />
+	<application android:label="BT_Android" android:icon="@drawable/Icon"></application>
+</manifest>
